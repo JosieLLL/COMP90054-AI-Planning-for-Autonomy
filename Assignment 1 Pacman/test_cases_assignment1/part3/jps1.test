@@ -1,0 +1,16 @@
+class: "PacmanSearchTest"
+algorithm: "jumpPointSearch"
+
+# The following specifies the layout to be used 
+layoutName: "tinyOpenMaze"
+leewayFactor: "1.1"
+layout: """
+%%%%%%%%%
+%      P%
+%       %
+%  %  % %
+%%%%  %%%
+%.      %
+%%%%%%%%%
+"""
+heuristic: "manhattanHeuristic"
